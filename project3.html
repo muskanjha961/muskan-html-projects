@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback form of annapurna restaurant</title>
+</head>
+<body>
+    <h1>We value your feedback!!Help  us to improve </h1>
+    <p>Your thoughts and feedback means a lot to us..We are always listening and eager to improve<br>
+    <b>submit your thaughts below:</b></p>
+
+    <form action="abc" method="post">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"required><br><br>
+
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="date">visit date</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="dish">favourite dish:</label>
+        <select id="dish" name="dish">
+             <option value="biriyani">biriyani</option>
+             <option value="masala dosa">masala dosa</option>
+             <option value="paneer tikka">paneer tikka</option>
+        </select><br><br>
+         <p>would u recommend us?</p>
+        <label><input type="radio"name="answer"value="yes">yes</label><br>
+        <label><input type="radio" name="answer" value="no">no</label><br><br>
+
+        <label for="message">write your thaughts here</label><br>
+        <textarea id="message" name="message" rows="4" cols="20"></textarea><br><br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
